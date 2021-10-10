@@ -62,7 +62,7 @@ Run in Terminal:
 # Install Spatie
 Run in Terminal:
 
-    $ sail composer require spatie/laravel-permissionv
+    $ sail composer require spatie/laravel-permission
 
 Open up config/app.php and add to the 'providers' array:
 for e.g. under Application Service Providers...
@@ -85,4 +85,4 @@ Change use HasApiTokens, HasFactory, Notifiable; to:
 
 Run in Terminal:
 
-    $ sail artisan migrate
+    $ sail artisan migrate:fresh
