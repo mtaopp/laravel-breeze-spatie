@@ -35,7 +35,7 @@ Open up the docker-compose.yml and add following lines. (e.g after the mysql ser
         PMA_PORT: 3306
             depends_on:
                 mysql:
-                condition: service_healthy
+                    condition: service_healthy
         networks:
             - sail
 
