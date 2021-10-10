@@ -57,6 +57,7 @@ Run in Terminal:
     $ sail composer require laravel/breeze --dev
     $ sail artisan breeze:install
     $ sail npm install && sail npm run dev
+    $ sail artisan migrate:fresh
 
 # Install Spatie
 Run in Terminal:
