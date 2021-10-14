@@ -19,7 +19,7 @@ Open up a folder in which you want your new project.
 
 Run in Terminal:
 
-    $ curl -s "http://laravel.build/ProjectName" | bash
+    $ curl -s "https://laravel.build/ProjectName" | bash
 
 # Add phpmyadmin to the docker-compose.yml
 Open up the docker-compose.yml and add following lines. (e.g after the mysql service)
